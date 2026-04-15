@@ -43,3 +43,12 @@ htmlcov/
 # OS
 .DS_Store
 Thumbs.db
+
+# ML / training artifacts
+*.pth
+*.pt
+*.bin
+*.safetensors
+checkpoint-*/
+test-trainer/
+hf_models/
